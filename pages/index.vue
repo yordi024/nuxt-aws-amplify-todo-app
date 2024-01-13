@@ -14,7 +14,7 @@
         </form>
     </div>
 
-    <div class="grid gap-4">
+    <div class="grid gap-4 mb-10">
         <div v-for="todo in todos" :key="todo.id" class="w-1/2 m-auto">
             <UCard>
                 <template #header>
